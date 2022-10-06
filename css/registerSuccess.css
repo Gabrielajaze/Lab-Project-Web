@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(./imgBackground/registerbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box{
+    border: 1px solid red;
+    background-color: #ffffff;
+    opacity: 0.8;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+
+.box img {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.box h1{
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+
+.box button{
+    display:inline-block;
+    padding:5px 30px;
+    border: 1.6px solid #c15d05;
+    margin:0 7px 7px 0;
+    border-radius:4px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+   background-color: #f07b15;
+    color: #ffffff;
+    text-align:center;
+    transition: all 0.2s;
+    font-size: 20px;
+  }
+  
+.box button:hover{
+    background-color: #ffffff;
+    color:#ba7001;
+}
+
+.box p {
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+
+  .box a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .box a:hover{
+    text-decoration: underline;
+}
+
+@media(min-width: 441px) and (max-width: 710px){
+    .box img {
+        height: 100px;
+        margin-bottom: 20px;
+    }
+
+    .box h1{
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+
+    .box p {
+        font-size: 15px;
+        margin-top: 9px;
+    
+    }
+    
+  }
+
+@media(min-width: 300px) and (max-width: 440px){
+    .box img {
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .box h1{
+        margin-bottom: 40px;
+        font-size: 35px;
+    }
+
+    .box p {
+        font-size: 15px;
+        margin-top: 30px;
+    
+    }
+    
+    .box button{
+        padding:5px 20px;
+        font-size: 15px;
+    }
+  }
+
+
+
+@media(max-width: 299px){
+    .box img {
+        height: 70px;
+        margin-bottom: 20px;
+    }
+
+    .box h1{
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    .box p {
+        font-size: 15px;
+        margin-top: 9px;
+    
+    }
+
+    .box button{
+        padding:5px 10px;
+        font-size: 10px;
+    }
+    
+  }

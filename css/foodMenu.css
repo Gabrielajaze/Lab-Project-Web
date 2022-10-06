@@ -1,0 +1,86 @@
+.content{
+    height: 1600px;
+    padding-top: 1px;
+    background-color: #FFE4C4;
+}
+
+.contentFoodMenu1{
+    width: 100%;
+    height: 25%;
+    background-color: #FFFAFA;
+    margin: 0 auto; 
+}
+
+.foodMenuTittle{
+    margin-left: 20px;
+    color: rgb(255, 179, 0);
+
+}
+
+.flexFoodMenu1{
+        display: flex;
+}
+
+.boxFood1{
+    margin-top: 30px;
+    width: 20%;
+    height: 100%;
+
+}
+
+img{
+    width: 300px;
+    height: 220px;
+}
+
+.titleBox1{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family:serif;
+    opacity: 60%;
+    margin-left: 22%;
+    height: 55px;
+}
+
+.titleBox1:hover{
+    color: red;
+}
+
+.price{
+    font-weight: bold;
+    color: rgb(39, 192, 39);
+    font-size: 20px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none
+}
+
+a:hover{
+    color: red;
+}
+
+.contentFoodMenu2{
+width: 100%;
+    height: 25%;
+    background-color: #f4ead7;
+    margin: 0 auto; 
+}
+    
+.contentFoodMenu3{
+    width: 100%;
+    height: 25%;
+    background-color: #FFFAFA;
+    margin: 0 auto; 
+}
+
+.contentFoodMenu4{
+    width: 100%;
+    height: 25%;
+    background-color: #f4ead7;
+    margin: 0 auto; 
+}
+
+ 

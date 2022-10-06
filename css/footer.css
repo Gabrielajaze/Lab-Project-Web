@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #FFDEAD;
+    padding: 40px 0;
+    
+}
+
+.footer-content{
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-col-logo{
+    width: 25%;
+    padding: 0 20px;
+}
+
+.footer-col a.logo{
+    font-weight:bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-col h3{
+    font-size: 25px;
+    color: black;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+
+.footer-col h3::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #7d0b0b;
+	height: 2px;
+	box-sizing: border-box;
+	width: 90px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 20px;
+    color: #913737;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    display: block;
+    transition: all 0.5 ease;
+}
+
+.footer-col ul li a:hover{
+    color: #ed4848;
+    padding-left: 10px;
+}
+
+.footer-col .social a{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(235, 228, 228);
+    margin-right: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #7d0b0b;
+    transition: all 0.5 ease;
+}
+
+.footer-col .social a:hover{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+.footer-col .social img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.footer-col h5{
+    font-size: 15px;
+    color: black;
+    padding-top: 30px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+@media(max-width: 970px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 60px;
+    }
+}
+
+@media(max-width: 503px){
+    .footer-col{
+        width: 100%;
+    }
+}
+
